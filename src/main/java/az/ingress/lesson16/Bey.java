@@ -1,27 +1,27 @@
 package az.ingress.lesson16;
 
-public class Customer {
+public class Bey {
 
     public int id;
     public String name;
 
-    public CreditCard cc;
+    public Gelin arvad;
 
-    public Customer(int id, String name) {
+    public Bey(int id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public void setCc(CreditCard cc) {
-        this.cc = cc;
+    public void setArvad(Gelin xanim) {
+        arvad = xanim;
     }
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Bey{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", cc=" + cc +
+                ", arvad=" + arvad +
                 '}';
     }
 
